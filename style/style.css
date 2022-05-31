@@ -1,0 +1,63 @@
+#encabezado{
+    background-color: #E6E6E6;
+    text-align: center;
+    height: 188.19px;
+    vertical-align:middle;
+}
+#encabezado img{
+    height: 146.37px;
+    margin-top: 21px; /*Lo uso para centrar la imagen en el bloque*/
+}
+h1{
+    background-color: #c4c4c4;
+    color: #005677;
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    line-height: 60px; 
+    text-align: center;
+    margin-top: 0px; 
+    margin-bottom: 0px; /*se eliminan líneas blancas por encima y por debajo del h1*/  
+    letter-spacing: 5px;
+    word-spacing: 10px; /*se aumenta el espaciado entre letras y palabras*/
+    font-weight: 700;    
+}
+.titulos{
+    background-color: #c4c4c4;
+    color: #005677;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: 2px;
+    word-spacing: 4px; /*se aumenta el espaciado entre letras y palabras*/
+    text-indent: 12.45px; /*se agrega sangría*/
+}
+ul{
+    font-size: 15px;
+}
+.negritait{
+    font-style: italic;
+    font-weight: bold;
+}
+.sin-vineta {
+    list-style-type: none; 
+}
+.sangria{
+    color: white
+} /*se definen sangría y sin-nviñeta para materializar la alineación del renglón inferior con el superior*/
+footer{
+    background-color: #005677;
+    color: #ffffff;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    height: 37px;
+    line-height: 37px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle; 
+    
+}
+footer img{
+    height: 20px;
+    margin-left: 20px; /*genera el espaciado entre las imágenes*/
+}
