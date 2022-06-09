@@ -1,100 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 *{
     box-sizing: border-box;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
-
-body{
-    background-color: #e5e5e5;
-    font-family: 'Roboto';    
-}
-main{
-    height: 834px;
-}
-.descuento{
-    background-color: rgba(28, 209, 176, 1);
-        font-size: 15px;
-    padding: 10px;
-    width: 100%;    
-}
-.titulo{
-    background-color: #00669F;
-    border-bottom: solid 8px silver;
-    font-size: 40px;
-    padding-bottom: 26px;
-    padding-top: 28px;
-    padding-left: 28px;
+header{
+    display: flex;
+    flex-direction: column;
+    height: 139px;
+    justify-content: space-between;
     width: 100%;
 }
-.tarjetas{
-    height: 530px;
-    position:relative;
-    top: 154px;
-    left: 32px;
-    width: 960px;    
+.dto{
+    background-color: #1CD1B0;
+    flex-grow: 0.27;
+    font-family: roboto;
+    font-size: 15px;
+    padding: 10px;
+    width:  auto;    
+}
+h1{
+    background-color: #00669F;
+    flex-grow: 0.73;
+    font-family: roboto;
+    font-size: 40px;
+    padding: 28px;
+    padding-bottom: 26px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 834px;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 2px;
+    align-items: center;
 }
 .tarjeta1{
     background-color: #F3F3F3;
-    border-bottom: solid 5px silver;
-    display: inline-block;
-    height: 530px;
+    height: 529px;
     position: relative;
+    width: 300px;
 }
-.corazon{
-    position: absolute; left: 21px; top: 15.8px;
-}
-.redondo{
-    height: 120px;
-    border-radius: 60px;
-    overflow: hidden;
-    position: absolute; top: 128px; left: 90px;
-    width: 120px;
-}
-
-.foto{
-    height: 120px;
-}
-
-h2{
-    position: absolute; left: 89px; top: 267px;    
-}
-
-.parrafo{
-    position: absolute;
-    left: 16px; top: 312px;
-    width: 267px;
-    text-align: left;    
-}
-
-.boton{
-    background-color: #00669F;
-    color: #FFF9F9;
-    font-size: 15px;
-    padding: 15px 37px;
-    position: absolute;
-        bottom: 18.5px;
-        left: 85px;        
-}
-
 .tarjeta2{
     background-color: #F3F3F3;
-    border-bottom: solid 5px silver;
-    display: inline-block;
-    height: 530px;
-    position: absolute; 
-        left: 330px;
+    height: 529px;
+    position: relative;
+    width: 300px;    
 }
 .tarjeta3{
     background-color: #F3F3F3;
-    border-bottom: solid 5px silver;
-    display: inline-block;
-    height: 530px;
+    height: 529px;
+    position: relative;
+    width: 300px;
+}
+.corazon{
     position: absolute;
-        left: 660px;
+        left: 21px; top: 16px;
+}
+.circulo{
+    border-radius: 60px;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+        bottom: 282px;
+        left: 90px; 
+    width: 120px;
+}
+.foto{
+    height: 120px;
+}
+h2{    
+    font-family: roboto;
+    font-size: 30px;
+    position: absolute;
+        bottom: 227px; left: 89px;
+    text-align: center;
+}
+.descripcion{
+    position: absolute;
+        bottom: 104px; left: 16px;
+    font-family: roboto;
+    font-size: 16px;
+    width: 90%;
+}
+.boton{
+    background-color: #00669F;
+    color: #F3F3F3;
+    font-family: roboto;
+    font-size: 15px;
+    padding: 15px 37px 15px 37px;
+    position: absolute;
+        bottom: 15.5px; left: 85px;
 }
 footer{
     background-color: #00669F;
     color: #FFF9F9;
+    font-family: roboto;
+    font-size: 16px;
     padding: 16px;
+    width: 100%;
 }
